@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/RafalskyAndrey13/BrainItCourseLanding/static/css/main.5f361e03.chunk.css",
-    "main.js": "/RafalskyAndrey13/BrainItCourseLanding/static/js/main.4b68b45e.chunk.js",
-    "main.js.map": "/RafalskyAndrey13/BrainItCourseLanding/static/js/main.4b68b45e.chunk.js.map",
+    "main.css": "/RafalskyAndrey13/BrainItCourseLanding/static/css/main.d21b8a05.chunk.css",
+    "main.js": "/RafalskyAndrey13/BrainItCourseLanding/static/js/main.b2c90623.chunk.js",
+    "main.js.map": "/RafalskyAndrey13/BrainItCourseLanding/static/js/main.b2c90623.chunk.js.map",
     "runtime-main.js": "/RafalskyAndrey13/BrainItCourseLanding/static/js/runtime-main.7209cc09.js",
     "runtime-main.js.map": "/RafalskyAndrey13/BrainItCourseLanding/static/js/runtime-main.7209cc09.js.map",
-    "static/js/2.cfca646d.chunk.js": "/RafalskyAndrey13/BrainItCourseLanding/static/js/2.cfca646d.chunk.js",
-    "static/js/2.cfca646d.chunk.js.map": "/RafalskyAndrey13/BrainItCourseLanding/static/js/2.cfca646d.chunk.js.map",
+    "static/js/2.f64f1c74.chunk.js": "/RafalskyAndrey13/BrainItCourseLanding/static/js/2.f64f1c74.chunk.js",
+    "static/js/2.f64f1c74.chunk.js.map": "/RafalskyAndrey13/BrainItCourseLanding/static/js/2.f64f1c74.chunk.js.map",
     "index.html": "/RafalskyAndrey13/BrainItCourseLanding/index.html",
-    "precache-manifest.ac9199a52d9fab67bb6d254b0d9d443c.js": "/RafalskyAndrey13/BrainItCourseLanding/precache-manifest.ac9199a52d9fab67bb6d254b0d9d443c.js",
+    "precache-manifest.9b3a3e44de809cff48bedc6d4d625b7d.js": "/RafalskyAndrey13/BrainItCourseLanding/precache-manifest.9b3a3e44de809cff48bedc6d4d625b7d.js",
     "service-worker.js": "/RafalskyAndrey13/BrainItCourseLanding/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/RafalskyAndrey13/BrainItCourseLanding/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.cfca646d.chunk.js.LICENSE.txt": "/RafalskyAndrey13/BrainItCourseLanding/static/js/2.cfca646d.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/RafalskyAndrey13/BrainItCourseLanding/static/media/logo.5d5d9eef.svg"
+    "static/css/main.d21b8a05.chunk.css.map": "/RafalskyAndrey13/BrainItCourseLanding/static/css/main.d21b8a05.chunk.css.map",
+    "static/js/2.f64f1c74.chunk.js.LICENSE.txt": "/RafalskyAndrey13/BrainItCourseLanding/static/js/2.f64f1c74.chunk.js.LICENSE.txt",
+    "static/media/PostHeader.module.css": "/RafalskyAndrey13/BrainItCourseLanding/static/media/lecture_hall_background.c96833ba.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.7209cc09.js",
-    "static/js/2.cfca646d.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.4b68b45e.chunk.js"
+    "static/js/2.f64f1c74.chunk.js",
+    "static/css/main.d21b8a05.chunk.css",
+    "static/js/main.b2c90623.chunk.js"
   ]
 }
