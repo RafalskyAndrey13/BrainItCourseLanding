@@ -1,0 +1,19 @@
+.search_form {
+    display: flex;
+    width: 50%;
+    margin: auto;
+}
+
+.search_form button {
+    background-color: darkviolet;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    transition: background-color .3s linear;
+}
+
+.search_form button:hover {
+    cursor: pointer;
+    background-color: orange;
+}

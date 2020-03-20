@@ -1,0 +1,28 @@
+.wrapper {
+    background: #2267ff url("../../assets/img/lecture_hall_background.jpg") no-repeat 0 100%;
+    background-blend-mode: hard-light;
+    background-size: cover;
+    height: 600px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper div {
+    align-self: center;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+.wrapper div h2 {
+    font-size: 50px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.wrapper div p {
+    font-size: 24px;
+    margin: 0 0 25px;
+}
