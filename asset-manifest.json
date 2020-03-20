@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/BrainItCourseLanding/static/css/main.6d690a7d.chunk.css",
-    "main.js": "/BrainItCourseLanding/static/js/main.97bcd1a7.chunk.js",
-    "main.js.map": "/BrainItCourseLanding/static/js/main.97bcd1a7.chunk.js.map",
-    "runtime-main.js": "/BrainItCourseLanding/static/js/runtime-main.6d23c8b3.js",
-    "runtime-main.js.map": "/BrainItCourseLanding/static/js/runtime-main.6d23c8b3.js.map",
-    "static/js/2.806ef326.chunk.js": "/BrainItCourseLanding/static/js/2.806ef326.chunk.js",
-    "static/js/2.806ef326.chunk.js.map": "/BrainItCourseLanding/static/js/2.806ef326.chunk.js.map",
-    "index.html": "/BrainItCourseLanding/index.html",
-    "precache-manifest.58fb164be882fef272aa528630df91ff.js": "/BrainItCourseLanding/precache-manifest.58fb164be882fef272aa528630df91ff.js",
-    "service-worker.js": "/BrainItCourseLanding/service-worker.js",
-    "static/css/main.6d690a7d.chunk.css.map": "/BrainItCourseLanding/static/css/main.6d690a7d.chunk.css.map",
-    "static/js/2.806ef326.chunk.js.LICENSE.txt": "/BrainItCourseLanding/static/js/2.806ef326.chunk.js.LICENSE.txt",
-    "static/media/course_image.jpg": "/BrainItCourseLanding/static/media/course_image.d92385a9.jpg",
-    "static/media/gray_star.svg": "/BrainItCourseLanding/static/media/gray_star.68e4b462.svg",
-    "static/media/PostHeader.module.css": "/BrainItCourseLanding/static/media/lecture_hall_background.c96833ba.jpg",
-    "static/media/like_icon.svg": "/BrainItCourseLanding/static/media/like_icon.57c9a039.svg",
-    "static/media/school-icon.svg": "/BrainItCourseLanding/static/media/school-icon.3152c52c.svg",
-    "static/media/thumb.svg": "/BrainItCourseLanding/static/media/thumb.78b66834.svg",
-    "static/media/timer.svg": "/BrainItCourseLanding/static/media/timer.c6385cda.svg",
-    "static/media/yellow_star.svg": "/BrainItCourseLanding/static/media/yellow_star.4ddb5644.svg"
+    "main.css": "/brainitlanding/static/css/main.2bdb31c7.chunk.css",
+    "main.js": "/brainitlanding/static/js/main.ef5e27c5.chunk.js",
+    "main.js.map": "/brainitlanding/static/js/main.ef5e27c5.chunk.js.map",
+    "runtime-main.js": "/brainitlanding/static/js/runtime-main.84367515.js",
+    "runtime-main.js.map": "/brainitlanding/static/js/runtime-main.84367515.js.map",
+    "static/js/2.806ef326.chunk.js": "/brainitlanding/static/js/2.806ef326.chunk.js",
+    "static/js/2.806ef326.chunk.js.map": "/brainitlanding/static/js/2.806ef326.chunk.js.map",
+    "index.html": "/brainitlanding/index.html",
+    "precache-manifest.7723ad764fdef1b86390a42ba6d7e7e3.js": "/brainitlanding/precache-manifest.7723ad764fdef1b86390a42ba6d7e7e3.js",
+    "service-worker.js": "/brainitlanding/service-worker.js",
+    "static/css/main.2bdb31c7.chunk.css.map": "/brainitlanding/static/css/main.2bdb31c7.chunk.css.map",
+    "static/js/2.806ef326.chunk.js.LICENSE.txt": "/brainitlanding/static/js/2.806ef326.chunk.js.LICENSE.txt",
+    "static/media/course_image.jpg": "/brainitlanding/static/media/course_image.d92385a9.jpg",
+    "static/media/gray_star.svg": "/brainitlanding/static/media/gray_star.68e4b462.svg",
+    "static/media/PostHeader.module.css": "/brainitlanding/static/media/lecture_hall_background.c96833ba.jpg",
+    "static/media/like_icon.svg": "/brainitlanding/static/media/like_icon.57c9a039.svg",
+    "static/media/school-icon.svg": "/brainitlanding/static/media/school-icon.3152c52c.svg",
+    "static/media/thumb.svg": "/brainitlanding/static/media/thumb.78b66834.svg",
+    "static/media/timer.svg": "/brainitlanding/static/media/timer.c6385cda.svg",
+    "static/media/yellow_star.svg": "/brainitlanding/static/media/yellow_star.4ddb5644.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6d23c8b3.js",
+    "static/js/runtime-main.84367515.js",
     "static/js/2.806ef326.chunk.js",
-    "static/css/main.6d690a7d.chunk.css",
-    "static/js/main.97bcd1a7.chunk.js"
+    "static/css/main.2bdb31c7.chunk.css",
+    "static/js/main.ef5e27c5.chunk.js"
   ]
 }
