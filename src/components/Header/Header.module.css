@@ -5,6 +5,7 @@
     position: fixed;
     width: 100%;
     transition: padding .3s linear;
+    z-index: 1000;
 }
 
 .navigation {

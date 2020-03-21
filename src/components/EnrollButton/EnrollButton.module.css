@@ -1,0 +1,17 @@
+.enroll_button {
+    border: 2px solid #591f94;
+    background-color: transparent;
+    color: #591f94;
+    border-radius: 15px;
+    padding: 5px 15px;
+    font-weight: bold;
+    font-size: 12px;
+    transition: all .3s linear;
+}
+
+.enroll_button:hover {
+    cursor: pointer;
+    background-color: #591f94;
+    color: white;
+}
+
