@@ -1,35 +1,47 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ff91fd2ec87601bff74f8cd22198862e",
+    "revision": "6e9a958b43fe641540010fbf9e13b0c6",
     "url": "/BrainItCourseLanding/index.html"
   },
   {
-    "revision": "270c681dcd6c67cc3a82",
+    "revision": "78553695e5fbc10154fc",
     "url": "/BrainItCourseLanding/static/css/2.168be9e7.chunk.css"
   },
   {
-    "revision": "ecd5eda8eef236325c61",
-    "url": "/BrainItCourseLanding/static/css/main.eb324c98.chunk.css"
+    "revision": "967cb2cf095e5beed9a2",
+    "url": "/BrainItCourseLanding/static/css/main.c693f11b.chunk.css"
   },
   {
-    "revision": "270c681dcd6c67cc3a82",
-    "url": "/BrainItCourseLanding/static/js/2.40dc52b2.chunk.js"
+    "revision": "78553695e5fbc10154fc",
+    "url": "/BrainItCourseLanding/static/js/2.81c62b37.chunk.js"
   },
   {
     "revision": "eff3b4d7e4bb0087ce53139cd90bc880",
-    "url": "/BrainItCourseLanding/static/js/2.40dc52b2.chunk.js.LICENSE.txt"
+    "url": "/BrainItCourseLanding/static/js/2.81c62b37.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ecd5eda8eef236325c61",
-    "url": "/BrainItCourseLanding/static/js/main.6f599117.chunk.js"
+    "revision": "967cb2cf095e5beed9a2",
+    "url": "/BrainItCourseLanding/static/js/main.b4fe647e.chunk.js"
   },
   {
     "revision": "4527b42d010d6280cad5",
     "url": "/BrainItCourseLanding/static/js/runtime-main.6d23c8b3.js"
   },
   {
+    "revision": "8d16a3e02fcdff04495ef9933e4a19a3",
+    "url": "/BrainItCourseLanding/static/media/category.8d16a3e0.svg"
+  },
+  {
+    "revision": "c9ed534424f8327dbf2bc9e631851d1e",
+    "url": "/BrainItCourseLanding/static/media/category_background.c9ed5344.jpg"
+  },
+  {
     "revision": "d92385a9d3db3b796a602d4205a1ae4b",
     "url": "/BrainItCourseLanding/static/media/course_image.d92385a9.jpg"
+  },
+  {
+    "revision": "604cbb227a16ad3632623510c4a4a9b0",
+    "url": "/BrainItCourseLanding/static/media/event.604cbb22.jpg"
   },
   {
     "revision": "68e4b4622a7d2135c3ffa0772a12afa3",
