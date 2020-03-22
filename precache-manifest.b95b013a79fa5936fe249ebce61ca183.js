@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6e9a958b43fe641540010fbf9e13b0c6",
+    "revision": "151147bb8e194125b062f9de57091bf6",
     "url": "/BrainItCourseLanding/index.html"
   },
   {
-    "revision": "78553695e5fbc10154fc",
+    "revision": "76a1e69301a248d0256a",
     "url": "/BrainItCourseLanding/static/css/2.168be9e7.chunk.css"
   },
   {
-    "revision": "967cb2cf095e5beed9a2",
-    "url": "/BrainItCourseLanding/static/css/main.c693f11b.chunk.css"
+    "revision": "1de160f75d86a8f8827f",
+    "url": "/BrainItCourseLanding/static/css/main.954f02fa.chunk.css"
   },
   {
-    "revision": "78553695e5fbc10154fc",
-    "url": "/BrainItCourseLanding/static/js/2.81c62b37.chunk.js"
+    "revision": "76a1e69301a248d0256a",
+    "url": "/BrainItCourseLanding/static/js/2.0c896827.chunk.js"
   },
   {
     "revision": "eff3b4d7e4bb0087ce53139cd90bc880",
-    "url": "/BrainItCourseLanding/static/js/2.81c62b37.chunk.js.LICENSE.txt"
+    "url": "/BrainItCourseLanding/static/js/2.0c896827.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "967cb2cf095e5beed9a2",
-    "url": "/BrainItCourseLanding/static/js/main.b4fe647e.chunk.js"
+    "revision": "1de160f75d86a8f8827f",
+    "url": "/BrainItCourseLanding/static/js/main.ca9b4e64.chunk.js"
   },
   {
     "revision": "4527b42d010d6280cad5",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c9ed534424f8327dbf2bc9e631851d1e",
     "url": "/BrainItCourseLanding/static/media/category_background.c9ed5344.jpg"
+  },
+  {
+    "revision": "8705cb2e46569f3f08a3f5e584881f6f",
+    "url": "/BrainItCourseLanding/static/media/close.8705cb2e.svg"
   },
   {
     "revision": "d92385a9d3db3b796a602d4205a1ae4b",
@@ -54,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "57c9a039101ba4c5d3e5a7cc8b541f52",
     "url": "/BrainItCourseLanding/static/media/like_icon.57c9a039.svg"
+  },
+  {
+    "revision": "934d5cdffd73a1340da141427e366fa7",
+    "url": "/BrainItCourseLanding/static/media/menu.934d5cdf.svg"
   },
   {
     "revision": "3152c52cf1a82c4acf188e7f81c0a6e4",
