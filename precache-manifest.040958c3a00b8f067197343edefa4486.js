@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "151147bb8e194125b062f9de57091bf6",
+    "revision": "60605247b87d205e19361030516dd4cb",
     "url": "/BrainItCourseLanding/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BrainItCourseLanding/static/css/2.168be9e7.chunk.css"
   },
   {
-    "revision": "1de160f75d86a8f8827f",
-    "url": "/BrainItCourseLanding/static/css/main.954f02fa.chunk.css"
+    "revision": "56649ec61c888de4b318",
+    "url": "/BrainItCourseLanding/static/css/main.7a978d52.chunk.css"
   },
   {
     "revision": "76a1e69301a248d0256a",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BrainItCourseLanding/static/js/2.0c896827.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1de160f75d86a8f8827f",
+    "revision": "56649ec61c888de4b318",
     "url": "/BrainItCourseLanding/static/js/main.ca9b4e64.chunk.js"
   },
   {

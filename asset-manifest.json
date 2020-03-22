@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/BrainItCourseLanding/static/css/main.954f02fa.chunk.css",
+    "main.css": "/BrainItCourseLanding/static/css/main.7a978d52.chunk.css",
     "main.js": "/BrainItCourseLanding/static/js/main.ca9b4e64.chunk.js",
     "main.js.map": "/BrainItCourseLanding/static/js/main.ca9b4e64.chunk.js.map",
     "runtime-main.js": "/BrainItCourseLanding/static/js/runtime-main.6d23c8b3.js",
@@ -9,10 +9,10 @@
     "static/js/2.0c896827.chunk.js": "/BrainItCourseLanding/static/js/2.0c896827.chunk.js",
     "static/js/2.0c896827.chunk.js.map": "/BrainItCourseLanding/static/js/2.0c896827.chunk.js.map",
     "index.html": "/BrainItCourseLanding/index.html",
-    "precache-manifest.b95b013a79fa5936fe249ebce61ca183.js": "/BrainItCourseLanding/precache-manifest.b95b013a79fa5936fe249ebce61ca183.js",
+    "precache-manifest.040958c3a00b8f067197343edefa4486.js": "/BrainItCourseLanding/precache-manifest.040958c3a00b8f067197343edefa4486.js",
     "service-worker.js": "/BrainItCourseLanding/service-worker.js",
     "static/css/2.168be9e7.chunk.css.map": "/BrainItCourseLanding/static/css/2.168be9e7.chunk.css.map",
-    "static/css/main.954f02fa.chunk.css.map": "/BrainItCourseLanding/static/css/main.954f02fa.chunk.css.map",
+    "static/css/main.7a978d52.chunk.css.map": "/BrainItCourseLanding/static/css/main.7a978d52.chunk.css.map",
     "static/js/2.0c896827.chunk.js.LICENSE.txt": "/BrainItCourseLanding/static/js/2.0c896827.chunk.js.LICENSE.txt",
     "static/media/category.svg": "/BrainItCourseLanding/static/media/category.8d16a3e0.svg",
     "static/media/category_background.jpg": "/BrainItCourseLanding/static/media/category_background.c9ed5344.jpg",
@@ -33,7 +33,7 @@
     "static/js/runtime-main.6d23c8b3.js",
     "static/css/2.168be9e7.chunk.css",
     "static/js/2.0c896827.chunk.js",
-    "static/css/main.954f02fa.chunk.css",
+    "static/css/main.7a978d52.chunk.css",
     "static/js/main.ca9b4e64.chunk.js"
   ]
 }
