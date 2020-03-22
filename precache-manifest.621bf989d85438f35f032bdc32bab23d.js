@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "60605247b87d205e19361030516dd4cb",
+    "revision": "9048055e801cd250ed1903091f4bea05",
     "url": "/BrainItCourseLanding/index.html"
   },
   {
-    "revision": "76a1e69301a248d0256a",
+    "revision": "d1cf98f792003cb4c832",
     "url": "/BrainItCourseLanding/static/css/2.168be9e7.chunk.css"
   },
   {
-    "revision": "56649ec61c888de4b318",
-    "url": "/BrainItCourseLanding/static/css/main.7a978d52.chunk.css"
+    "revision": "278e29aaea50a411e34d",
+    "url": "/BrainItCourseLanding/static/css/main.e5a99fdc.chunk.css"
   },
   {
-    "revision": "76a1e69301a248d0256a",
-    "url": "/BrainItCourseLanding/static/js/2.0c896827.chunk.js"
+    "revision": "d1cf98f792003cb4c832",
+    "url": "/BrainItCourseLanding/static/js/2.850ed7cc.chunk.js"
   },
   {
-    "revision": "eff3b4d7e4bb0087ce53139cd90bc880",
-    "url": "/BrainItCourseLanding/static/js/2.0c896827.chunk.js.LICENSE.txt"
+    "revision": "01057f6a82a8edcd61804bde33cbb913",
+    "url": "/BrainItCourseLanding/static/js/2.850ed7cc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "56649ec61c888de4b318",
-    "url": "/BrainItCourseLanding/static/js/main.ca9b4e64.chunk.js"
+    "revision": "278e29aaea50a411e34d",
+    "url": "/BrainItCourseLanding/static/js/main.e4edf287.chunk.js"
   },
   {
     "revision": "4527b42d010d6280cad5",

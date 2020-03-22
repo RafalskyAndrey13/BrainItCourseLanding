@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/BrainItCourseLanding/precache-manifest.040958c3a00b8f067197343edefa4486.js"
+  "/BrainItCourseLanding/precache-manifest.621bf989d85438f35f032bdc32bab23d.js"
 );
 
 self.addEventListener('message', (event) => {
