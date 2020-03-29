@@ -4,7 +4,6 @@ import ResetForm from "../ResetPasswordForm/ResetForm";
 import {connect} from "react-redux";
 
 const ResetPasswordLayout = (props) => {
-
     return <div className={styles.wrapper}>
         <h2>Reset your password</h2>
         {props.isSuccessful ? <div className={styles.successful_wrapper}>

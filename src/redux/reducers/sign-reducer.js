@@ -4,7 +4,8 @@ const initialState = {
     user: null,
     isSuccessful: false,
     isLoading: false,
-    errorMessage: null
+    errorMessage: null,
+    isRedirecting: false
 };
 
 const SET_SUCCESSFUL = "SET_SUCCESSFUL";
@@ -12,6 +13,7 @@ const SET_CURRENT_USER = "SET_CURRENT_USER";
 const SET_ERROR_MESSAGE = "SET_ERROR_MESSAGE";
 const RESET = "RESET";
 const TOGGLE_FETCHING = 'TOGGLE_FETCHING';
+const REDIRECT_WITH_DELAY = "REDIRECT_WITH_DELAY";
 
 export const signReducer = (state = initialState, action) => {
     switch(action.type){
@@ -25,8 +27,10 @@ export const signReducer = (state = initialState, action) => {
             return {...state, errorMessage: action.error};
         case TOGGLE_FETCHING:
             return {...state, isLoading: !state.isLoading};
+        case REDIRECT_WITH_DELAY:
+            return {...state, isRedirecting: true};
         case RESET:
-            return {...state, errorMessage: null, isSuccessful: false};
+            return {...state, errorMessage: null, isSuccessful: false, isRedirecting: false};
         default:
             return state;
     }
@@ -37,6 +41,11 @@ export const setCurrentUser = (user) => ({type: SET_CURRENT_USER, user});
 const setErrorMessage = (error) => ({type: SET_ERROR_MESSAGE, error});
 const toggleFetching = () => ({type: TOGGLE_FETCHING});
 const reset = () => ({type: RESET});
+const redirectWithDelay = () => ({type: REDIRECT_WITH_DELAY});
+
+export const redirect = (delay) => async dispatch => {
+    setTimeout(() => dispatch(redirectWithDelay()), delay);
+};
 
 export const loginUserWithEmail = (email, password) => async dispatch => {
     dispatch(toggleFetching());
