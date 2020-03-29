@@ -2,13 +2,12 @@ import React from 'react';
 import styles from "./FeaturesLayout.module.css";
 import FeaturesItem from "../FeaturesItem/FeaturesItem";
 import icon from "../../assets/img/school-icon.svg";
+import {connect} from "react-redux";
 
-const FeaturesLayout = () => {
+const FeaturesLayout = (props) => {
     return <div className={styles.wrapper}>
-        <FeaturesItem imgUrl={icon} title={"+200 courses"} description={"Explore a variety of fresh topics"}/>
-        <FeaturesItem imgUrl={icon} title={"+200 courses"} description={"Explore a variety of fresh topics"}/>
-        <FeaturesItem imgUrl={icon} title={"+200 courses"} description={"Explore a variety of fresh topics"}/>
+        {props.features.map((feature, index) => <FeaturesItem key={index} imgUrl={icon} title={feature.title} description={feature.description}/>)}
     </div>
 };
 
-export default FeaturesLayout;
+export default connect(state => ({features: state.features.data}), null)(FeaturesLayout);

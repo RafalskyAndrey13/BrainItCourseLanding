@@ -1,0 +1,57 @@
+.wrapper {
+    background-image: url("../../assets/img/login_background.jpg");
+}
+
+.register {
+    height: 100vh;
+    width: 30%;
+    background-color: white;
+}
+
+.register header {
+    background: linear-gradient(to right, #480048, #C04848);
+    padding: 15px;
+}
+
+.register header img {
+    display: block;
+    margin: auto;
+}
+
+.form {
+    padding: 15px;
+}
+
+.register footer {
+    display: flex;
+    justify-content: center;
+}
+
+.register footer a {
+    text-decoration: none;
+    color: #414fff;
+    transition: all .3s linear;
+}
+
+.register footer a:hover {
+    color: #0b3aff;
+}
+
+.register footer a, .register footer span {
+    padding: 5px;
+}
+
+.register footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.register footer span {
+    text-align: center;
+}
+
+@media all and (max-width: 600px){
+    .register {
+        width: 100%;
+    }
+}

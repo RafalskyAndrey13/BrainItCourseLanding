@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './PopularCoursesLayout.module.css'
 import SectionHeader from "../SectionHeader/SectionHeader";
 import CourseItem from "../CourseItem/CourseItem";
 import courseImg from '../../assets/img/course_image.jpg';
@@ -6,9 +7,11 @@ import Slider from "react-slick";
 
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
+import HeaderButton from "../HeaderButton/HeaderButton";
+import {connect} from "react-redux";
 
 
-const PopularCoursesLayout = () => {
+const PopularCoursesLayout = (props) => {
     const settings = {
         dots: true,
         infinite: false,
@@ -43,42 +46,24 @@ const PopularCoursesLayout = () => {
             }
         ]
     };
-    return <div>
+    return <div className={styles.wrapper}>
         <SectionHeader title={'Udema Popular Courses'} description={'Cum doctus civibus efficiantur in imperdiet deterruisset.'}/>
+        <div className={styles.courses_list}>
             <Slider {...settings}>
-            <CourseItem imgUrl={courseImg} price={50} category={"Programming"} title={"Python Fundamentals"}
-                        description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. " +
-                        "Adipisci amet animi beatae commodi consectetur consequuntur corporis culpa dolores" +
-                        "est harum incidunt ipsa laudantium, optio placeat quisquam quod recusandae rem temporibus."}
-                        rate={3} votingNumber={255} duration={'1h 30 min'} likes={234}/>
-            <CourseItem imgUrl={courseImg} price={50} category={"Programming"} title={"Python Fundamentals"}
-                        description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. " +
-                        "Adipisci amet animi beatae commodi consectetur consequuntur corporis culpa dolores" +
-                        "est harum incidunt ipsa laudantium, optio placeat quisquam quod recusandae rem temporibus."}
-                        rate={3} votingNumber={255} duration={'1h 30 min'} likes={234}/>
-            <CourseItem imgUrl={courseImg} price={50} category={"Programming"} title={"Python Fundamentals"}
-                        description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. " +
-                        "Adipisci amet animi beatae commodi consectetur consequuntur corporis culpa dolores" +
-                        "est harum incidunt ipsa laudantium, optio placeat quisquam quod recusandae rem temporibus."}
-                        rate={3} votingNumber={255} duration={'1h 30 min'} likes={234}/>
-            <CourseItem imgUrl={courseImg} price={50} category={"Programming"} title={"Python Fundamentals"}
-                        description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. " +
-                        "Adipisci amet animi beatae commodi consectetur consequuntur corporis culpa dolores" +
-                        "est harum incidunt ipsa laudantium, optio placeat quisquam quod recusandae rem temporibus."}
-                        rate={3} votingNumber={255} duration={'1h 30 min'} likes={234}/>
-                <CourseItem imgUrl={courseImg} price={50} category={"Programming"} title={"Python Fundamentals"}
-                            description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. " +
-                            "Adipisci amet animi beatae commodi consectetur consequuntur corporis culpa dolores" +
-                            "est harum incidunt ipsa laudantium, optio placeat quisquam quod recusandae rem temporibus."}
-                            rate={3} votingNumber={255} duration={'1h 30 min'} likes={234}/>
-                <CourseItem imgUrl={courseImg} price={50} category={"Programming"} title={"Python Fundamentals"}
-                            description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. " +
-                            "Adipisci amet animi beatae commodi consectetur consequuntur corporis culpa dolores" +
-                            "est harum incidunt ipsa laudantium, optio placeat quisquam quod recusandae rem temporibus."}
-                            rate={3} votingNumber={255} duration={'1h 30 min'} likes={234}/>
-            </Slider>
+                {props.data.map((course, index) => <CourseItem key={index} imgUrl={course.imageUrl} price={course.price} category={course.category.title}
+                description={course.description} rate={course.rate} votingNumber={course.numberOfVotes} duration={course.duration}
+                likes={course.likes}/>)}
+</Slider>
+        </div>
+        <div className={styles.controls}>
+            <HeaderButton text={"View all courses"}/>
+        </div>
 
     </div>
 };
 
-export default PopularCoursesLayout;
+const mapStateToProps = (state) => ({
+    data: state.popularCourses.data,
+});
+
+export default connect(mapStateToProps, null)(PopularCoursesLayout);

@@ -1,5 +1,6 @@
 .wrapper {
     display: flex;
+    align-items: center;
     background: transparent;
     padding: 8px;
     position: fixed;
@@ -8,8 +9,13 @@
     z-index: 1000;
 }
 
+.menuButton {
+    display: none;
+}
+
 .navigation {
     display: flex;
+    align-items: center;
     list-style-type: none;
     margin-left: auto;
     margin-right: 15px;
@@ -34,4 +40,73 @@
 .background_wrapper {
     background: linear-gradient(to right, #480048, #C04848);
     padding: 13px;
+}
+
+@media all and (max-width: 600px) {
+
+    .navigation.displayed {
+        display: flex;
+        height: 100vh;
+    }
+
+    .menuButton {
+        display: block;
+        background: none;
+        border: none;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+    .menuButton:hover {
+        cursor: pointer;
+    }
+
+    .logo {
+        margin-left: auto;
+    }
+
+    .wrapper {
+        background: linear-gradient(to right, #480048, #C04848);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 8px;
+        position: fixed;
+        width: 100%;
+        transition: padding .3s linear;
+        z-index: 1000;
+    }
+
+    .navigation {
+        display: none;
+        justify-content: center;
+        flex-direction: column;
+        list-style-type: none;
+        margin: 5px 0 10px;
+        padding: 0;
+    }
+
+    .navigation li {
+        margin-left: 30px;
+        padding: 24px;
+        vertical-align: center;
+    }
+
+    .navigation li:hover a {
+        color: #ede1ff;
+    }
+
+    .navigation a {
+        color: white;
+        text-decoration: none;
+        transition: color .3s linear;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .background_wrapper {
+        background: linear-gradient(to right, #480048, #C04848);
+        padding: 13px;
+    }
 }

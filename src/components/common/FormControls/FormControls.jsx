@@ -9,7 +9,7 @@ export const Input = ({input, meta: {touched, error}, ...props}) => {
             <input {...input} {...props}/>
         </div>
         <div>
-            {hasError && <span>{error}</span>}
+            {hasError && <span className={styles.error}>{error}</span>}
         </div>
     </div>
 };

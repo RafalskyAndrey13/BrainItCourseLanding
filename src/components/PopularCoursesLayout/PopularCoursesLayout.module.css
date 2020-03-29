@@ -1,1 +1,15 @@
+.courses_list {
+    margin-bottom: 45px;
+}
 
+.controls {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.wrapper {
+    border-bottom: 1px solid #8f8f8f;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px
+}

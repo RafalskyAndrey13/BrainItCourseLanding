@@ -1,0 +1,9 @@
+.reviews {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrapper {
+    background-color: #f4f4f4;
+    padding-bottom: 36px;
+}

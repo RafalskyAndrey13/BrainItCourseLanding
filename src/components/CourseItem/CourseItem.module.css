@@ -104,6 +104,12 @@
     text-align: justify;
     font-size: 14px;
     line-height: 1.5em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 8;
+    min-height: 12em;
 }
 
 .rate {
@@ -137,5 +143,6 @@
 
 .wrapper footer .info {
     display: flex;
+    flex-wrap: wrap;
     margin-right: auto;
 }

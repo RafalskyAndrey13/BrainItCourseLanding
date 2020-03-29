@@ -1,0 +1,11 @@
+.categoriesList {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 36px;
+}
+
+.wrapper {
+    background-color: #f4f4f4;
+    padding-left: 10px;
+    padding-right: 10px;
+}

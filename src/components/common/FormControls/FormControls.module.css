@@ -1,6 +1,15 @@
 .input input{
+    box-sizing: border-box;
     width: 100%;
-    padding: 15px;
+    padding: 24px;
     border: none;
+    border-bottom: 1px solid gray;
     font-size: 18px;
+}
+
+.error {
+    display: block;
+    color: darkred;
+    text-align: justify;
+    margin-top: 5px;
 }

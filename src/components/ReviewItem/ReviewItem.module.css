@@ -1,0 +1,9 @@
+.wrapper {
+    margin: 15px;
+    flex-basis: 45%;
+    flex-grow: 1;
+}
+
+.video {
+    width: 100%;
+}

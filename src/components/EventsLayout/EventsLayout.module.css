@@ -1,0 +1,15 @@
+.eventList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.wrapper {
+    padding-bottom: 36px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

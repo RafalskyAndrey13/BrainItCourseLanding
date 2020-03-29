@@ -1,15 +1,15 @@
 import React from 'react';
-import styles from './ResetPasswordLayout.module.css';
-import ResetForm from "../ResetPasswordForm/ResetForm";
+import styles from './NewPasswordLayout.module.css';
 import {connect} from "react-redux";
+import NewPasswordForm from "../NewPasswordForm/NewPasswordForm";
 
 const ResetPasswordLayout = (props) => {
 
     return <div className={styles.wrapper}>
         <h2>Reset your password</h2>
         {props.isSuccessful ? <div className={styles.successful_wrapper}>
-            <p>Email with further instructions has been sent successfully. Please, check you email.</p>
-        </div> : <ResetForm isSuccessful={props.isSuccessful}/>
+            <p>Password has been changed successfully.</p>
+        </div> : <NewPasswordForm isSuccessful={props.isSuccessful}/>
         }
     </div>
 };

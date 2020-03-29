@@ -1,0 +1,61 @@
+.wrapper {
+    background-image: url("../../assets/img/login_background.jpg");
+}
+
+.login {
+    height: 100vh;
+    width: 30%;
+    background-color: white;
+}
+
+.login header {
+    background: linear-gradient(to right, #480048, #C04848);
+    padding: 15px;
+}
+
+.login header img {
+    display: block;
+    margin: auto;
+}
+
+.form {
+    padding: 15px;
+}
+
+.form .label {
+    display: block;
+    text-align: center;
+    margin-top: 45px;
+    font-weight: bold;
+    color: gray;
+}
+
+.login footer {
+    display: flex;
+    justify-content: center;
+}
+
+.login footer a {
+    text-decoration: none;
+    color: #414fff;
+    transition: all .3s linear;
+}
+
+.login footer a:hover {
+    color: #0b3aff;
+}
+
+.login footer a, .login footer span {
+    padding: 5px;
+}
+
+.login footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media all and (max-width: 600px){
+    .login {
+        width: 100%;
+    }
+}
