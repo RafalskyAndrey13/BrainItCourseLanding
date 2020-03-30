@@ -1,0 +1,18 @@
+.wrapper {
+    height: 90vh;
+    background-blend-mode: hard-light;
+    background: #2267ff url("../../assets/img/course_detail_background.jpg") 20% 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.wrapper h2 {
+    border-top: 5px solid #b16200;
+    padding-top: 15px;
+    text-align: center;
+}

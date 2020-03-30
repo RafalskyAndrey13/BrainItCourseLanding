@@ -18,7 +18,7 @@ const ResetPasswordLayout = (props) => {
     return <div className={styles.wrapper}>
         <h2>Reset your password</h2>
         {props.isSuccessful ? <div className={styles.successful_wrapper}>
-            <p>Password has been changed successfully.</p>
+            <p>Password has been changed successfully. In 2 seconds you will be redirected to login page</p>
         </div> : <NewPasswordForm isSuccessful={props.isSuccessful}/>
         }
     </div>

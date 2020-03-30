@@ -16,7 +16,6 @@ const CourseItem = ({imgUrl, price, category, title, description, rate, votingNu
         return stars;
     };
 
-
     return <div className={styles.wrapper}>
         <header>
             <span className={styles.price}>${price}</span>
@@ -44,7 +43,7 @@ const CourseItem = ({imgUrl, price, category, title, description, rate, votingNu
                     <span>{likes}</span>
                 </div>
             </div>
-            <EnrollButton/>
+            <EnrollButton course={title}/>
         </footer>
 
     </div>

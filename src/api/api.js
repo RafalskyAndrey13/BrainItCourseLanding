@@ -70,6 +70,17 @@ export const api = {
             })
     },
 
+    getCourseByName(name) {
+        console.log(name);
+        return db.collection("Courses").where("title", "==", name).get()
+            .then(result => {
+                const response = [];
+                result.forEach(doc => response.push(doc.data()));
+                return {code: 200, course: response[0]}
+            })
+            .catch(error => ({code: 400, error: error.message}))
+    },
+
     getInitialData(){
         return Promise.all(
             [db.collection("Categories").get(),
@@ -92,9 +103,13 @@ export const api = {
             return data;
         })
             .then(data => {
-                Promise.all(data.popularCourses.map(course => course.category.get()))
-                    .then(categories => categories.forEach((category, index) => data.popularCourses[index].category = category.data()));
-                return data;
+                return Promise.all(data.popularCourses.map(course => course.category.get()))
+                    .then(categories => {
+                        categories.forEach((category, index) => {
+                            data.popularCourses[index].category = category.data()
+                        });
+                        return data;
+                    })
             })
             .catch(error => console.log(error));
     }

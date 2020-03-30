@@ -2,7 +2,6 @@ import React from 'react';
 import styles from './PopularCoursesLayout.module.css'
 import SectionHeader from "../SectionHeader/SectionHeader";
 import CourseItem from "../CourseItem/CourseItem";
-import courseImg from '../../assets/img/course_image.jpg';
 import Slider from "react-slick";
 
 import "slick-carousel/slick/slick-theme.css";
@@ -52,7 +51,7 @@ const PopularCoursesLayout = (props) => {
             <Slider {...settings}>
                 {props.data.map((course, index) => <CourseItem key={index} imgUrl={course.imageUrl} price={course.price} category={course.category.title}
                 description={course.description} rate={course.rate} votingNumber={course.numberOfVotes} duration={course.duration}
-                likes={course.likes}/>)}
+                likes={course.likes} title={course.title}/>)}
 </Slider>
         </div>
         <div className={styles.controls}>

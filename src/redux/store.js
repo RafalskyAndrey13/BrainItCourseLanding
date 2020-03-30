@@ -7,6 +7,7 @@ import {reviewsReducer} from "./reducers/reviews-reducer";
 import {popularCoursesReducer} from "./reducers/popular-courses-reducer";
 import {signReducer} from "./reducers/sign-reducer";
 import {featuresReducer} from "./reducers/features-reducer";
+import {currentCourseReducer} from "./reducers/current-course-reducer";
 
 let reducers = combineReducers({
     form,
@@ -16,6 +17,7 @@ let reducers = combineReducers({
     features: featuresReducer,
     app: appReducer,
     user: signReducer,
+    currentCourse: currentCourseReducer,
 });
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
