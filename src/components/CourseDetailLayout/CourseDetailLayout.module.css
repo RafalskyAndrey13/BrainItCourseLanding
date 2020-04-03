@@ -1,0 +1,15 @@
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8px;
+}
+
+.info {
+    flex-basis: 50%;
+    flex-grow: 1;
+}
+
+.side {
+    flex-basis: 35%;
+    flex-grow: 1;
+}

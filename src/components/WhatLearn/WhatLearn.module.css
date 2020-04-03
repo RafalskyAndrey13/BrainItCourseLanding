@@ -1,0 +1,19 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+
+.wrapper h3, .wrapper p {
+    margin: 0;
+}
+
+.wrapper p {
+    margin-top: 8px;
+}
+
+.wrapper img {
+    width: 35px;
+    height: 35px;
+    margin-right: 8px;
+}
