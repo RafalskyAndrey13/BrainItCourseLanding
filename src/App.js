@@ -12,6 +12,7 @@ import RegisterLayout from "./components/RegisterLayout/RegisterLayout";
 import ResetPasswordLayout from "./components/ResetPasswordLayout/ResetPasswordLayout";
 import NewPasswordLayout from "./components/NewPasswordLayout/NewPasswordLayout";
 import CourseDetailLayout from "./components/CourseDetailLayout/CourseDetailLayout";
+import EnrollLayout from "./components/EnrollLayout/EnrollLayout";
 
 const App = () => {
     return <BrowserRouter basename={process.env.PUBLIC_URL}>
@@ -20,6 +21,7 @@ const App = () => {
             <Route exact={true} path={'/register'} component={RegisterLayout}/>
             <Route exact={true} path={'/reset'} component={ResetPasswordLayout}/>
             <Route path={'/change-password'} component={NewPasswordLayout}/>
+            <Route path={'/enroll/:course'} component={EnrollLayout}/>
             <Route exact={true} path={'/detail/:course'} component={CourseDetailLayout}/>
         </BrowserRouter>
 };

@@ -134,3 +134,14 @@ export const confirmPasswordReset = (code, newPassword) => async dispatch => {
     }
     dispatch(toggleFetching());
 };
+
+export const enroll = (name, surname, phone, course) => async dispatch => {
+    dispatch(toggleFetching());
+    const response = await api.addEnrollment(name, surname, phone, course);
+    if (response.code === 200){
+        dispatch(setSuccessful());
+    } else {
+        dispatch(setErrorMessage(response.error));
+    }
+    dispatch(toggleFetching());
+};

@@ -11,9 +11,9 @@ import WhatLearn from "../WhatLearn/WhatLearn";
 import Lessons from "../Lessons/Lessons";
 import ReviewsList from "../ReviewsList/ReviewsList";
 import YouTube from "react-youtube";
-import EnrollButton from "../EnrollButton/EnrollButton";
 import HeaderButton from "../HeaderButton/HeaderButton";
 import Footer from "../Footer/Footer";
+import itemImg from "../../assets/img/item.svg";
 
 const CourseDetailLayout = (props) => {
     useEffect(() => {
@@ -27,29 +27,40 @@ const CourseDetailLayout = (props) => {
     return <div>
         <Header/>
         <CourseDetailPostHeader courseTitle={props.course.title}/>
-        <FixedMenu/>
+        <FixedMenu lessons={props.course.lessons} reviews={props.course.reviews}/>
         <div className={styles.main}>
             <div className={styles.info}>
                 <Description description={props.course.description}/>
+                <div id={"lessons"}>
                 {props.course.lessons && <WhatLearn lessons={props.course.lessons}/>}
-                {props.course.program && <Lessons lessons={props.course.program}/>}
-                {props.course.reviews && props.course.reviews.length > 0 ? <ReviewsList reviews={props.course.reviews}/> :
-                <p>No reviews yet</p>}
+                </div>
+                <div id={"reviews"}>
+                    {props.course.program && <Lessons lessons={props.course.program}/>}
+                </div>
+                    {props.course.reviews && props.course.reviews.length > 0 ? <ReviewsList reviews={props.course.reviews}/> :
+                        <p>No reviews yet</p>}
             </div>
             <div className={styles.side}>
-                {props.course.videoId && <YouTube videoId={props.course.videoId}/>}
-                <p>${props.course.price}</p>
-                <HeaderButton text={"Enroll now"}/>
-                <h3>What includes</h3>
-                {props.course.includes && <ul>
-                    {props.course.includes.map((item, index) => {
-                        return <li key={index}>{item}</li>
-                    })}
-                </ul>}
+                {props.course.videoId && <YouTube className={styles.video} videoId={props.course.videoId}/>}
+                <div className={styles.enroll}>
+                    <p className={styles.price}>${props.course.price}</p>
+                    <HeaderButton text={"Enroll now"} link={`/enroll/${props.match.params.course}`}/>
+                </div>
+                <div className={styles.includes}>
+                    {props.course.includes && <ul>
+                        <h3 className={styles.includesHeader}>What includes</h3>
+                        {props.course.includes.map((item, index) => {
+                            return <li key={index}><img src={itemImg} alt={"Includes item"}/>{item}</li>
+                        })}
+                    </ul>}
+                </div>
             </div>
         </div>
         <Footer/>
     </div>
 };
 
-export default connect((state) => ({course: state.currentCourse.course, isFetching: state.currentCourse.isFetching}), {getCourseByName})(CourseDetailLayout);
+export default connect((state) => ({course: state.currentCourse.course,
+        isFetching: state.currentCourse.isFetching,
+        user: state.user.user}),
+    {getCourseByName})(CourseDetailLayout);

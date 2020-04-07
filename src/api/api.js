@@ -6,6 +6,12 @@ export const api = {
     //     return db.collection("Categories").get();
     // },
 
+    addEnrollment(name, surname, phone, courseName) {
+        return db.collection("Enrollments").add({name, surname, phone, courseName})
+            .then(() => ({code: 200}))
+            .catch(error => ({code: 400, error: error.message}))
+    },
+
     signInWithEmail(email, password) {
         return auth.signInWithEmailAndPassword(email, password)
             .then(user => {

@@ -16,3 +16,9 @@
     padding-top: 15px;
     text-align: center;
 }
+
+@media all and (max-width: 600px) {
+    .wrapper h2 {
+        font-size: 45px;
+    }
+}

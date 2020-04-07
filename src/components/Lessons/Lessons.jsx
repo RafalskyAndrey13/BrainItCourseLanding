@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Lessons.module.css';
 import Collapsible from "react-collapsible";
+import classImg from '../../assets/img/class.svg';
 
 const Lessons = ({lessons}) => {
     return <div>
@@ -11,7 +12,7 @@ const Lessons = ({lessons}) => {
                                 contentOuterClassName={styles.content}
                                 key={index} trigger={lesson.title}>
                 <ul>
-                    {lesson.lessons.map((item, index) => <li key={index}>{item}</li>)}
+                    {lesson.lessons.map((item, index) => <li key={index}><img src={classImg} alt={"Class Img"}/>{item}</li>)}
                 </ul>
             </Collapsible>
         })}

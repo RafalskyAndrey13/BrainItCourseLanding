@@ -1,0 +1,21 @@
+.enroll_button {
+    width: 80%;
+    display: block;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: #2267ff;
+    color: white;
+    font-size: 18px;
+    transition: all .3s linear;
+    margin: 48px auto auto;
+}
+
+.enroll_button:hover{
+    cursor: pointer;
+    background-color: #0b3aff;
+}
+
+.error {
+    color: red;
+}
